@@ -1,0 +1,26 @@
+project: "Real-Estate Data QA SaaS"
+currency: "USD"
+year: 2025
+inflation:
+  cpi_path: "./data/cpi_us.csv"
+constraints:
+  supply_cap: 120
+scenarios:
+  base: {penetration_multiplier: 1.0, arpu_multiplier: 1.0}
+  upside: {penetration_multiplier: 1.5, arpu_multiplier: 1.2}
+  downside: {penetration_multiplier: 0.7, arpu_multiplier: 0.9}
+pricebook:
+  year: 2024
+  currency: "USD"
+  default_discount: 0.15
+  default_attach_rate: 0.9
+  tiers:
+    - key: "qa_suite"
+      base_price: 12000
+      pricing_model: per_unit
+      unit_scale: 1.0
+      min_price: 6000
+    - key: "etl_monitor"
+      base_price: 8000
+      pricing_model: flat
+      min_price: 5000

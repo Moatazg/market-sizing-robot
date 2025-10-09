@@ -1,0 +1,5 @@
+scenario,som_share,agent_split_pct,other_variable_pct,fixed_costs
+conservative,0.05,0.15,0.20,500000
+base,0.10,0.15,0.18,750000
+aggressive,0.20,0.12,0.15,1000000
+bootstrap,0.03,0.20,0.25,200000

@@ -1,0 +1,6 @@
+name,eligible_units,coverage,penetration,arpu,currency,fx_to_config,pricebook_key,discount,attach_rate
+SA Enterprise (500+),800,0.35,0.10,,USD,1.0,qa_suite,0.20,0.85
+AE Enterprise (500+),450,0.30,0.09,,USD,1.0,qa_suite,0.15,0.90
+SMB (50–499) KSA,5000,0.20,0.05,7000,USD,1.0,,
+SMB (50–499) UAE,2200,0.18,0.05,6900,USD,1.0,,
+KSA Public Sector,300,0.40,0.12,,USD,1.0,etl_monitor,0.10,0.80
