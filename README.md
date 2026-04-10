@@ -162,25 +162,17 @@ Example output:
 
 ### Break-Even Formulas
 
-\[
-	ext{Contribution Margin (CM)} = 1 - 	ext{agent_split_pct} - 	ext{other_variable_pct}
-\]
+$$\text{Contribution Margin (CM)} = 1 - \text{agent\_split\_pct} - \text{other\_variable\_pct}$$
 
-- If CM > 0 → feasible  
-- If CM = 0 → break-even impossible (no margin)  
+- If CM > 0 → feasible
+- If CM = 0 → break-even impossible (no margin)
 - If CM < 0 → negative margin, scaling worsens losses
 
-\[
-	ext{Break-even Revenue} = rac{	ext{Fixed Costs}}{	ext{CM}}
-\]
+$$\text{Break-even Revenue} = \frac{\text{Fixed Costs}}{\text{CM}}$$
 
-\[
-	ext{Break-even TAM} = rac{	ext{Break-even Revenue}}{	ext{SOM Share}}
-\]
+$$\text{Break-even TAM} = \frac{\text{Break-even Revenue}}{\text{SOM Share}}$$
 
-\[
-	ext{Min SOM Share to Break-even} = rac{	ext{Fixed Costs}}{	ext{CM} 	imes 	ext{TAM}}
-\]
+$$\text{Min SOM Share to Break-even} = \frac{\text{Fixed Costs}}{\text{CM} \times \text{TAM}}$$
 
 ---
 
